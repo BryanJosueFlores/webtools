@@ -1,0 +1,102 @@
+
+body{
+    
+    background-color: #702249;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color:#004c6f;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/* Estilos para el menú de opciones */
+nav {
+	background-color:  #006891;
+	padding: 10px;
+	box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #004c6f;
+}
+/* fin */
+
+/* Estilos para la sección de contenido */
+section { 
+    text-align: center;
+	color: #dbdbdb;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+    text-align: center;
+}
+
+#calendar {
+    font-family: Arial, sans-serif;
+}
+
+#calendar table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendar th, #calendar td {
+    border: 3px solid #003a55;
+    padding: 8px;
+    text-align: center;
+}
+
+#calendar th {
+    background-color:#006891;
+}
+
+#calendar td {
+    height: 80px;
+}
+
+#calendar .today {
+    background-color: #077caa;
+}
+
+#calendar .selected {
+    background-color: #a0a0a0;
+    color: #fff;
+}  
+footer p {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+  }

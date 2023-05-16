@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caja de Herramientas</title>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilo.css">
+	<script src="validar.js"></script>
+	
+</head>
+<body>
+	<header>
+		<h1>Caja de herramientas</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="todo-list-main/indexlista.html">Lista de tareas</a></li>
+			<li><a href="calculadora/Calculadora.html">Calculadora</a></li>
+			<li><a href="dinosaurio_chrome-master/juego.html">juego</a></li>
+			<li><a href="musica/musica.html">Musica</a></li>
+			<li><a href="calendario/calendar.html">Calendario</a></li>
+			
+		</ul>
+	</nav>
+
+	<section>
+		<p>Bienvenido a la caja de herramientas. Selecciona una de las aplicaciones del menú de opciones para empezar.</p>
+	</section>
+
+	<div id="contacto">
+		<form action="contacto.php" autocomplete="off" method="post" onsubmit="validar()">
+			<h2>Contáctanos</h2>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre"><br>
+
+			<label for="correo">Correo electrónico:</label>
+			<input type="email" id="correo" name="correo"><br>
+
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje"></textarea><br>
+
+			<input type="submit" name="enviar" value="Enviar">
+		</form>
+	</div>	
+	<footer>	
+		<p>&copy; 2023 Bryan Josue Flores Gonzalez | Todos los derechos reservados</p>
+	</footer>
+</body>
+</html>

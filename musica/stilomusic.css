@@ -1,0 +1,98 @@
+body{
+    
+    background-color: #702249;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color:#004c6f;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/* Estilos para el menú de opciones */
+nav {
+	background-color:  #006891;
+	padding: 10px;
+	box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #004c6f;
+}
+/* fin */
+
+/* Estilos para la sección de contenido */
+section {
+    text-align: center;
+	color: #dbdbdb;
+	padding: 20px;
+}
+
+
+
+  footer p {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+  }
+
+nav a:hover {
+	background-color: #004c6f;
+}
+  
+  #song-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #song-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  #content {
+    padding: 20px;
+  }
+  
+  #player-bar {
+    margin: 0%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #006891;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,116 @@
+
+body{
+    
+    background-color: #702249;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color:#004c6f;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/* Estilos para el menú de opciones */
+nav {
+	background-color:  #006891;
+	padding: 10px;
+	box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #004c6f;
+}
+/* fin */
+
+/* Estilos para la sección de contenido */
+section {
+	color: #dbdbdb;
+	padding: 20px;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+	background-color: #077caa;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 15px 10px 0px 5px #00000033;
+  }
+  
+  #contacto h2 {
+	color: #dbdbdb;
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+  }
+  
+  #contacto label {
+	color: #dbdbdb;
+	display: block;
+	margin: 10px 0;
+	font-size: 18px;
+  }
+  
+  #contacto input[type="text"],
+  #contacto input[type="email"],
+  #contacto textarea {
+	padding: 10px;
+	font-size: 18px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+  }
+  
+  #contacto textarea {
+	height: 100px;
+  }
+  
+  #contacto input[type="submit"] {
+	background-color: #333;
+	color: #dbdbdb;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+  }
+  
+  #contacto input[type="submit"]:hover {
+	background-color: #666;
+  }
+
+  footer p {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+  }
